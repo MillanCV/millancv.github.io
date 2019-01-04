@@ -20,8 +20,8 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  font: 18px/1.4 $Serif;
+  color: $millan;
 }
 
 .container {
@@ -32,8 +32,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: $Serif;
+  color: $millan;
   font-weight: bold;
 
   line-height: 1.7;
@@ -157,7 +157,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $darkGray;
 
   @include mobile {
     text-align: center;
@@ -194,9 +194,9 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $millan;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $SansSerif;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -204,7 +204,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $millan;
   font-size: 16px;
 
   @include mobile {
@@ -215,7 +215,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $Serif;
   font-size: 18px;
 
   @include mobile {
