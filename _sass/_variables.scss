@@ -18,8 +18,8 @@ $millan: hsl(217, 10%, 43%);
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
-$Serif: 'Roboto Slab', serif;
-$SansSerif: 'Roboto', sans-serif;
+$Serif: 'Merriweather', serif;
+$SansSerif: 'Roboto Slab', sans-serif;
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {
