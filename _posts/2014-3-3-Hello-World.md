@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using Axios in Vue.js
+
 ---
 
 Vue.js + Axios tutorial for begginer
@@ -9,7 +10,7 @@ Vue.js + Axios tutorial for begginer
 
 Axios is a library for http communication, making ajax requests, and so on. There is also a library called ‘vue-resource’ to do such things, but it’s said that it is not used well due to it’s slow update cycle and larger community of 
 
-
+<script src="{{ base.url | prepend: site.url }}/assets/some-script.js"></script>
 
 Axios is a library for http communication, making ajax requests, and so on. There is also a library called ‘vue-resource’ to do such things, but it’s said that it is not used well due to it’s slow update cycle and larger community of 
 Axios is a library for http communication, making ajax requests, and so on. There is also a library called ‘vue-resource’ to do such things, but it’s said that it is not used well due to it’s slow update cycle and larger community of 
