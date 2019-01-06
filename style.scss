@@ -14,19 +14,33 @@
 /**************/
 
 html {
+  height: 100%;
   font-size: 100%;
   overflow-y: scroll;
+ 
 }
 
 body {
+  position: relative;
 	background: $white;
-  font: 18px/1.4 $Serif;
+  font-family: $Serif;
   color: $millan;
+  text-rendering: optimizeLegibility;
+  padding-bottom: 10rem;
+  min-height: 100%;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 640px;
+  max-width: 660px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+
+.containerHeader {
+  margin: 0 auto;
+  max-width: 1200px;
   padding: 0 10px;
   width: 100%;
 }
@@ -54,7 +68,8 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.75rem;
+  font-weight: bold;
 }
 
 h3 {
@@ -68,6 +83,13 @@ h4 {
 
 p {
   margin: 15px 0;
+  font-family: $Serif;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  line-height: 34px;
 }
 
 a {
@@ -154,12 +176,13 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  
 }
 
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $darkGray;
-
+  
   @include mobile {
     text-align: center;
   }
@@ -275,12 +298,10 @@ nav {
 }
 
 .wrapper-footer {
-  
-  
- 
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0; 
   background-color: $lightGray;
 }
 
